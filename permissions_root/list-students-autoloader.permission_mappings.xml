@@ -1,0 +1,6 @@
+<permission_mappings>
+    <permission name='/admin/home.html'>
+        <implies allow="post">/ws/schema/table/U_DEF_AUTOLOADER_LISTS</implies>
+        <implies allow="post">/ws/schema/table/U_DEF_AUTOLOADER_LISTS/#</implies>
+    </permission>
+</permission_mappings>

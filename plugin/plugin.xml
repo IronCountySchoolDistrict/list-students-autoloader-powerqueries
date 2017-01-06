@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://plugin.powerschool.pearson.com"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        description="List Students Autoloader permissions"
-        name="List Students Autoloader Power Queries"
-        version="1.0.0"
-        xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd">
+<plugin
+    xmlns="http://plugin.powerschool.pearson.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    description="List Students Autoloader permissions"
+    name="List Students Autoloader Power Queries"
+    version="1.0.0"
+    xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd">
+
+    <access_request>
+      <field table="U_DEF_AUTOLOADER_LISTS" field="CELL_PADDING" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="COLUMN_TITLE1" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="COLUMN_TITLE2" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="COLUMN_TITLE3" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="COLUMN_TITLE4" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="COLUMN_TITLE5" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="COLUMN_TITLE6" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="COLUMN_TITLE7" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="COLUMN_TITLE8" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="COLUMN_TITLE9" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="COLUMN_TITLE10" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="EXPORT" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="FIELD_NAME1" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="FIELD_NAME2" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="FIELD_NAME3" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="FIELD_NAME4" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="FIELD_NAME5" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="FIELD_NAME6" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="FIELD_NAME7" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="FIELD_NAME8" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="FIELD_NAME9" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="FIELD_NAME10" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="GRIDLINES" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="ID" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="REPORT_TITLE" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="ROWS_BREAKS" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="SORT_DIR1" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="SORT_DIR2" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="SORT_DIR3" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="SORT_FIELD_NAME1" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="SORT_FIELD_NAME2" access="ViewOnly" />
+      <field table="U_DEF_AUTOLOADER_LISTS" field="SORT_FIELD_NAME3" access="ViewOnly" />
+    </access_request>
 
     <publisher name="Iron County School District Data Team">
         <contact email="data@ironmail.org"/>
